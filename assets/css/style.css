@@ -11648,7 +11648,7 @@ a:active,
   padding-left: 0;
 }
 
-table {
+.content-blog table {
   margin-top: 20px;
   display: block;
   max-width: fit-content;
