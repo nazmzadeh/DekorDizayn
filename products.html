@@ -93,7 +93,10 @@
             </div>
             <div class="col-lg-7 col-sm-8 col-md-6 col-xs-5 col-ts-12">
               <div class="block-search-block">
-                <form class="form-search form-search-width-category">
+                <form
+                  class="form-search form-search-width-category"
+                  method="get"
+                >
                   <div class="form-content">
                     <div class="category" id="category-select">
                       <select
@@ -101,13 +104,14 @@
                         data-placeholder="All Categories"
                         class="chosen-select"
                         tabindex="1"
+                        name="category"
                       >
-                        <option value="United States">Accessories</option>
-                        <option value="United Kingdom">Accents</option>
-                        <option value="Afghanistan">Desks</option>
-                        <option value="Aland Islands">Sofas</option>
-                        <option value="Albania">New Arrivals</option>
-                        <option value="Algeria">Bedroom</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Accents">Accents</option>
+                        <option value="Desks">Desks</option>
+                        <option value="Sofas">Sofas</option>
+                        <option value="New Arrivals">New Arrivals</option>
+                        <option value="Bedroom">Bedroom</option>
                       </select>
                     </div>
                     <div class="inner">
@@ -424,7 +428,7 @@
         <div class="item mobile-logo">
           <div class="logo">
             <a href="#">
-              <img src="assets/images/logo.png" alt="img" />
+              <img src="assets/images/dekor-dizayn-logo.PNG" alt="img" />
             </a>
           </div>
         </div>
@@ -522,7 +526,7 @@
             <div class="site-main">
               <h3 class="custom_blog_title">Məhsullar</h3>
               <div class="shop-top-control">
-                <form class="select-item select-form">
+                <div class="select-item select-form">
                   <span class="title">Sort</span>
                   <select
                     title="sort"
@@ -535,9 +539,8 @@
                     <option value="4">8 Products/Page</option>
                     <option value="5">6 Products/Page</option>
                   </select>
-                </form>
-                <form class="filter-choice select-form">
-                  s
+                </div>
+                <div class="filter-choice select-form">
                   <span class="title">Sort by</span>
                   <select
                     title="sort-by"
@@ -550,7 +553,7 @@
                     <option value="4">Sort by newness</option>
                     <option value="5">Sort by price: low to high</option>
                   </select>
-                </form>
+                </div>
               </div>
               <ul
                 class="row list-products auto-clear equal-container product-grid"

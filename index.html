@@ -86,7 +86,10 @@
             </div>
             <div class="col-lg-7 col-sm-8 col-md-6 col-xs-5 col-ts-12">
               <div class="block-search-block">
-                <form class="form-search form-search-width-category">
+                <form
+                  class="form-search form-search-width-category"
+                  method="get"
+                >
                   <div class="form-content">
                     <div class="category" id="category-select">
                       <select
@@ -94,13 +97,14 @@
                         data-placeholder="All Categories"
                         class="chosen-select"
                         tabindex="1"
+                        name="category"
                       >
-                        <option value="United States">Accessories</option>
-                        <option value="United Kingdom">Accents</option>
-                        <option value="Afghanistan">Desks</option>
-                        <option value="Aland Islands">Sofas</option>
-                        <option value="Albania">New Arrivals</option>
-                        <option value="Algeria">Bedroom</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Accents">Accents</option>
+                        <option value="Desks">Desks</option>
+                        <option value="Sofas">Sofas</option>
+                        <option value="New Arrivals">New Arrivals</option>
+                        <option value="Bedroom">Bedroom</option>
                       </select>
                     </div>
                     <div class="inner">
@@ -417,7 +421,7 @@
         <div class="item mobile-logo">
           <div class="logo">
             <a href="#">
-              <img src="assets/images/logo.png" alt="img" />
+              <img src="assets/images/dekor-dizayn-logo.PNG" alt="img" />
             </a>
           </div>
         </div>
@@ -622,10 +626,13 @@
         <div class="cleric-product produc-featured rows-space-65">
           <div class="container">
             <h3 class="custommenu-title-blog">Kampaniyada olan məhsullar</h3>
+            <button class="slider-prev-arrow slider-arrow" type="button">
+              <i class="fa fa-angle-left"></i>
+            </button>
 
             <div
               class="owl-products owl-slick equal-container nav-center"
-              data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":false, "dots":true, "infinite":false, "speed":800, "rows":1}'
+              data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":true, "dots":true, "infinite":false, "speed":800, "rows":1}'
               data-responsive='[{"breakpoint":"2000","settings":{"slidesToShow":4}},{"breakpoint":"1200","settings":{"slidesToShow":3}},{"breakpoint":"992","settings":{"slidesToShow":2}},{"breakpoint":"480","settings":{"slidesToShow":1}}]'
             >
               <div class="product-item style-5">
@@ -850,9 +857,12 @@
                 </div>
               </div>
             </div>
+            <button class="slider-next-arrow slider-arrow" type="button">
+              <i class="fa fa-angle-right"></i>
+            </button>
           </div>
         </div>
-        <div class="banner-wrapp">
+        <div class="banner-wrapp row-banner">
           <div class="container">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-12">
@@ -1631,9 +1641,12 @@
           <div class="container">
             <h3 class="custommenu-title-blog">Son xəbərlər</h3>
             <div class="cleric-blog default">
+              <button class="slider-prev-arrow slider-arrow" type="button">
+                <i class="fa fa-angle-left"></i>
+              </button>
               <div
                 class="owl-slick equal-container nav-center"
-                data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":false, "dots":true, "infinite":true, "speed":800, "rows":1}'
+                data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":true, "dots":true, "infinite":true, "speed":800, "rows":1}'
                 data-responsive='[{"breakpoint":"2000","settings":{"slidesToShow":3}},{"breakpoint":"1200","settings":{"slidesToShow":3}},{"breakpoint":"992","settings":{"slidesToShow":2}},{"breakpoint":"768","settings":{"slidesToShow":2}},{"breakpoint":"481","settings":{"slidesToShow":1}}]'
               >
                 <div class="cleric-blog-item equal-element layout1">
@@ -1879,6 +1892,9 @@
                   </div>
                 </div>
               </div>
+              <button class="slider-next-arrow slider-arrow" type="button">
+                <i class="fa fa-angle-right"></i>
+              </button>
             </div>
           </div>
         </div>

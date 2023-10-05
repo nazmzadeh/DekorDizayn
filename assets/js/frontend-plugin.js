@@ -460,11 +460,12 @@ jQuery(document).ready(function ($) {
                     _config.prevArrow = '<span class="pe-7s-angle-up"></span>';
                     _config.nextArrow = '<span class="pe-7s-angle-down"></span>';
                 } else {
-                    _config.prevArrow = ".slider-prev-arrow";
-                    _config.nextArrow = ".slider-next-arrow";
+                    _config.prevArrow = _this.closest('.home-slider-banner, .cleric-product, .cleric-blog').find('.slider-prev-arrow');
+                    _config.nextArrow = _this.closest('.home-slider-banner, .cleric-product, .cleric-blog').find('.slider-next-arrow');
                 }
                 _config.responsive = _responsive;
-                _config.cssEase = "linear";
+                _config.cssEase = 'linear';
+
 
                 _this.slick(_config);
                 _this.on("afterChange", function (event, slick, direction) {
