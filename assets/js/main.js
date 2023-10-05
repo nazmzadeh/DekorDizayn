@@ -71,3 +71,21 @@ if (linkElements) linkElements.forEach(function (linkElement) {
         if (ulElement) ulElement.classList.toggle('show');
     });
 });
+
+
+const items = document.querySelectorAll(".faq_section .accordion button");
+if (items) {
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+    }
+
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+}
