@@ -11669,3 +11669,10 @@ a:active,
 .cleric-blog .slider-arrow {
   top: 26%;
 }
+@media screen and (max-width: 992px) {
+  .banner-wrapp.row-banner .myRow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
