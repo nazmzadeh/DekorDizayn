@@ -4099,6 +4099,8 @@ blockquote .author .desc {
 }
 .shop-top-control .select-form .title {
   margin-right: 3px;
+  display: inline-block;
+  width: 55px;
 }
 .shop-top-control .select-form.select-item {
   z-index: 1000;
@@ -5760,7 +5762,6 @@ ul.list-products {
   float: left;
 }
 .tab-details-product .tab-link {
-  margin-bottom: 35px;
   padding: 0;
   padding-bottom: 4px;
 }
@@ -5908,7 +5909,7 @@ ul.list-products {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 15px;
-  padding-top: 60px;
+  padding-top: 35px;
 }
 .product-grid-title::before {
   position: absolute;
@@ -10960,7 +10961,7 @@ iframe {
     border: 0;
     float: none;
   }
-  .tab-details-product .tab-link li {
+  .tab-details-product .tab-link h2 {
     display: block;
     text-align: center;
     padding: 0;
@@ -11543,6 +11544,9 @@ a:active,
   text-align: center;
   padding: 45px 0px;
 }
+.faq_section h2 {
+  font-weight: 600;
+}
 .accordion {
   margin-top: 15px;
 }
@@ -11578,9 +11582,7 @@ a:active,
   color: #7f87ab;
   border: 1px solid #7f87ab;
 }
-.accordion button .accordion-title {
-  padding: 0.5em 1.5em 0.5em 0;
-}
+
 .accordion button .icon {
   display: inline-block;
   position: absolute;
@@ -11659,12 +11661,11 @@ table {
   position: relative;
 }
 .cleric-product .slider-prev-arrow {
-  left: 70px;
+  left: 45px;
 }
 .cleric-product .slider-next-arrow {
-  right: 70px;
+  right: 45px;
 }
 .cleric-blog .slider-arrow {
   top: 26%;
 }
-
