@@ -5646,6 +5646,7 @@ ul.list-products {
   display: flex;
   gap: 10px;
   align-items: center;
+  margin-bottom: 5px;
 }
 .details-infor .variations .text-attribute span {
   color: #555555;
@@ -11712,4 +11713,8 @@ a:active,
     height: 37px;
     line-height: 36px;
   }
+}
+
+.text-attribute .tags a {
+  color: #7f87ab;
 }
