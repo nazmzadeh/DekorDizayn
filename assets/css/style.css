@@ -11713,3 +11713,7 @@ a:active,
 .text-attribute .tags a {
   color: #7f87ab;
 }
+
+#mCSB_1 {
+  max-height: 250px !important;
+}
