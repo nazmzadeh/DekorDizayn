@@ -11564,7 +11564,7 @@ a:active,
   display: flex;
   text-align: left;
   width: 100%;
-  padding: 1em 0;
+  padding: 1em 12px 1em 0;
   color: #666;
   font-size: 16px;
   font-weight: 400;
