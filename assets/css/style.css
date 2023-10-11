@@ -5762,7 +5762,6 @@ ul.list-products {
   font-size: 13px;
 }
 .tab-details-product {
-  margin-top: 56px;
   width: 100%;
   float: left;
 }
@@ -10774,9 +10773,7 @@ iframe {
   .product-grid-title {
     padding-top: 35px;
   }
-  .tab-details-product {
-    margin-top: 40px;
-  }
+
   .cart-form .shop_table tbody tr.cart_item td.product-remove {
     position: static;
     transform: none;
@@ -10968,7 +10965,6 @@ iframe {
   .tab-details-product .tab-link h2 {
     display: block;
     text-align: center;
-    padding: 0;
     margin-bottom: 10px;
   }
   /*backtotop*/
