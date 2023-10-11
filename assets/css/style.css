@@ -11717,3 +11717,14 @@ a:active,
 #mCSB_1 {
   max-height: 250px !important;
 }
+
+@media screen and (max-width: 400px) {
+  .shoppingcart-content .control-cart .button,
+  .shoppingcart-content .control-cart a {
+    width: 100%;
+    margin-left: 0;
+  }
+  .shoppingcart-content .control-cart a {
+    margin-top: 10px;
+  }
+}
