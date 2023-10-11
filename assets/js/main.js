@@ -89,3 +89,12 @@ if (items) {
 
     items.forEach(item => item.addEventListener('click', toggleAccordion));
 }
+
+const numericInput = document.querySelectorAll('.numeric-input');
+if (numericInput) {
+    numericInput.forEach((inp) => inp.addEventListener('input', function () {
+        let newValue = this.value.replace(new RegExp(/[^\d]/, 'ig'), "");
+        this.value = newValue;
+    }))
+
+}
